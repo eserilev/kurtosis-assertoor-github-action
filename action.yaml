@@ -322,7 +322,7 @@ runs:
       done <<< $(echo "$enclave_details" | awk '/User Services/,0' | tail -n +3)
 
       echo "Services:"
-      echo "$services_json" | yq -P json -o yaml
+      echo "$services_json" | yq -p=json -o=yaml
 
       echo "services<<EOF" >> $GITHUB_OUTPUT
       echo "$services_json" >> $GITHUB_OUTPUT
