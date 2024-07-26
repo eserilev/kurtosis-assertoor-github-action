@@ -1,4 +1,4 @@
-name: 'Kurtosis Assertoor GitHub Action for Lighthouse'
+name: 'Kurtosis Assertoor GitHub Action'
 description: 'Spins up a ethereum testnet with kurtosis and runs certain tests using assertoor.'
 branding:
   icon: 'box'
